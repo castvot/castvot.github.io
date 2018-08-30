@@ -20,3 +20,4 @@ csslint.out.xml
 *.tmp
 *.log
 *.bak
+*~

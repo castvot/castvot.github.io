@@ -1,0 +1,9 @@
+exclude: [docker-compose.yml, CONTRIBUTING.md, Gemfile, Gemfile.lock, LICENSE, README.md, TERMS.md, .gitignore, .git]
+markdown: kramdown
+permalink: pretty
+relative_permalinks: false
+
+title: "castvot"
+url: "https://www.castvot.com"
+description: "Coming soon..."
+
