@@ -1,8 +1,44 @@
- - name: Brian Go
-   role: Co-Founder
-   detail: 회계-미국 회계사
-   img: staff_1.jpg
+ - name: Ted Kim
+   role: CEO
+   detail: 대표이사
+   img: profile_ted.png
+   
  - name: Evan Kwon
-   role: Co-Founder
-   detail: 운영 및 영업
-   img: staff_2.jpg
+   role: Director
+   detail: 이사
+   img: profile_evan.png
+   
+ - name: Liz Oh
+   role: Director
+   detail: 이사 
+   img: profile_liz.png
+ 
+ - name: HyeKyung Shin
+   role: Design spcialist
+   detail: 디자인 전문가
+   img: profile_hk.png
+
+ - name: Matthew Choi
+   role: Backend Developer
+   detail: 백엔드 개발자
+   img: profile_matthew.png
+
+ - name: Mason Ryu
+   role: Backend Developer
+   detail: 백엔드 개발자
+   img: profile_mason.png
+   
+ - name: Jjin Kim
+   role: Frontend Developer
+   detail: 프론트앤드 개발자
+   img: profile_jjin.png
+   
+ - name: Sun Nam
+   role: Designer &amp; Publisher 
+   detail: 디자이너 &amp; 퍼블리셔
+   img: profile_sun.png
+   
+ - name: Esther Yoo
+   role: Frontend Developer
+   detail: 프론트앤드 개발자
+   img: profile_esther.png
