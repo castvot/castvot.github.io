@@ -13,6 +13,11 @@
    detail: 이사 
    img: profile_liz.png
  
+ - name: aka. Dubhe
+   role: Security Professional
+   detail: 보안전문가
+   img: profile_dubhe.png
+   
  - name: HyeKyung Shin
    role: Design spcialist
    detail: 디자인 전문가
