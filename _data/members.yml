@@ -48,7 +48,7 @@
    detail: 프론트앤드 개발자
    img: profile_esther.png
 
-- name: Kennth Noh
-  role: Platform service manager
-  detail: 플랫폼기획전문가
-  img: profile_empty.png
+ - name: Kennth Noh
+   role: Platform service manager
+   detail: 플랫폼기획전문가
+   img: profile_empty.png
