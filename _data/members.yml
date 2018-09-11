@@ -18,7 +18,7 @@
    detail: 보안전문가
    img: profile_dubhe.png
    
- - name: HyeKyung Shin
+ - name: shinzzang
    role: Design spcialist
    detail: 디자인 전문가
    img: profile_hk.png
@@ -33,17 +33,17 @@
    detail: 백엔드 개발자
    img: profile_mason.png
    
- - name: Jjin Kim
+ - name: JJiN
    role: Frontend Developer
    detail: 프론트앤드 개발자
    img: profile_jjin.png
    
- - name: Sun Nam
+ - name: NAMS
    role: Designer &amp; Publisher 
    detail: 디자이너 &amp; 퍼블리셔
    img: profile_sun.png
    
- - name: Esther Yoo
+ - name: Esther
    role: Frontend Developer
    detail: 프론트앤드 개발자
    img: profile_esther.png
