@@ -21,3 +21,4 @@ csslint.out.xml
 *.log
 *.bak
 *~
+.idea/
