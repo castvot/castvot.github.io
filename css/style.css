@@ -37,7 +37,7 @@ section > div {border: 0px solid red; }
 
 .section2>div .rightBox { height: 600px; overflow: hidden; }
 .section2>div .rightBox .aboutSlide { width: 200%; height: 100%; overflow: hidden; }
-.section2>div .rightBox .aboutSlide>li { width:50%; height:calc(100% - 40px); overflow-y:auto; float:left; position: relative; }
+.section2>div .rightBox .aboutSlide>li { width:50%; height:calc(100% - 40px); overflow-y:auto; overflow-x: hidden; float:left; position: relative; }
 
 nav { position: fixed; left: 0; top: 0; width: 100%; height: 60px; background:rgba(255, 255, 255, 0.8); z-index:1;  }
 nav div > a img { margin-top: 14px;}
@@ -62,8 +62,8 @@ p { font-size: 14px; font-weight: bold; }
 .white:before { background: #fff; }
 
 section div > div {float: left;/* width: 48%; */}
-section > div .leftBox {width: 140px; height: 100%; margin-right: 70px; }
-section > div .rightBox { width: calc(100% - 210px); position: relative; margin-top: 50px; }
+section > div .leftBox {width: 158px;height: 100%;margin-right: 70px;}
+section > div .rightBox {width: calc(100% - 228px);position: relative;margin-top: 50px;}
 
 .blinking{
     -webkit-animation:blink 1s ease-in-out infinite alternate;
@@ -110,7 +110,7 @@ section > div .rightBox { width: calc(100% - 210px); position: relative; margin-
 .keyword div ul li:nth-child(odd) { background: #9e9d9d; }
 
 .about2 { width:100%; display: inline-block; }
-.about2 > div { width:26%; height: 250px; display: inline-block; text-align:center; margin: 0 calc(22% / 6) ; margin-bottom:20px; }
+.about2 > div { width:25%; height: 250px; display: inline-block; text-align:center; margin: 0 calc(22% / 6) ; margin-bottom: 25px; }
 .about2 > div img { width:100%; height:auto; }
 /* .about2 > div:nth-child(4) { margin-left: 20%; margin-right:8%; } */
 .about2 > div:nth-child(5) { margin-left: 0%; margin-right:20%; }
@@ -184,7 +184,7 @@ section .rightBox > div { width: 90%; }
 .list_table tr td table th { font-size: 18px; border: 2px solid #fff; text-align: center; word-break: keep-all; }
 .list_table .bold td { background: #fff2f2; font-weight: 600; }
 
-.listBtn { display: /*table*/ none; margin: 40px auto; padding:0;}
+.listBtn {display: table;margin: 40px auto;padding:0;}
 .listBtn li { float:left; width: 30px; height: 30px; text-align: center; }
 .listBtn li a { display: block; background: #fff; border: 1px solid #ddd; color: #333; line-height: 30px; }
 .listBtn .list a { background: #333; color: #fff; }
@@ -272,13 +272,13 @@ a.btn_green:hover { color:#fff; box-shadow: #022b2b 0 0px 0px 40px inset;}
     transform: scale(1.0);
 }
 
+.about2 > div:nth-child(4) { margin-left: 20%; margin-right: 8%;}
+
 
 @media screen and (max-width: 1760px) {
     .contact .info div p { font-size: 14px; }
     .contact .nameEmail div:first-child {margin-right: 10px;margin-bottom: 10px;}
 }
-
-
 
 
 @media screen and (max-width: 1600px) {
@@ -287,6 +287,8 @@ a.btn_green:hover { color:#fff; box-shadow: #022b2b 0 0px 0px 40px inset;}
 }
 
 @media screen and (max-width: 1295px) {
+
+    .about2 > div:nth-child(4) { margin-left: calc(22% / 6); margin-right: calc(22% / 6);}
 
     body { position: relative; }
     section > div, nav div { width: 85%; }
@@ -299,7 +301,7 @@ a.btn_green:hover { color:#fff; box-shadow: #022b2b 0 0px 0px 40px inset;}
     .menu { display: none; }
     #bg { z-index: 1; }
 
-    .m_menu { position: fixed; top: 0; right:0; width: 45%; height: 100%; background: #fff; z-index: 2; padding: 60px 0 0 40px; box-sizing: border-box; display:none; }
+    .m_menu { position: fixed; top: 0; right:0; width: 45%; height: 100%; background: #fff; z-index: 2; padding: 60px 0 0 40px; box-sizing: border-box; display:none; transition: all .5s; }
     .black_bg { display: none; position: fixed; top: 0; left:0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); z-index: 1; }
     .m_menu li a { font-size: 1.8rem; font-weight: bold; line-height: 2; color: #555; }
     .m_menu li a img { vertical-align: middle; }
@@ -307,7 +309,7 @@ a.btn_green:hover { color:#fff; box-shadow: #022b2b 0 0px 0px 40px inset;}
     section { padding-top: 80px; }
     .mTitle { width: 100%; text-align: right; margin-top: 30px; position: absolute; right: 50%; top: 50%; transform: translate(40%, -90%); }
 
-    .m_menu div { position: absolute; bottom: 20px; left: 40px;  }
+    .m_menu div { position: absolute; bottom: 20px; left: 40px;}
     .m_menu div h3 { font-size: 0.8rem; color: #aaa; }
     .m_menu div p { font-size: 1rem; margin-bottom: 8px; }
 
@@ -368,7 +370,7 @@ a.btn_green:hover { color:#fff; box-shadow: #022b2b 0 0px 0px 40px inset;}
 
     .tg {table-layout: fixed; }
     .tg tr td:not(:nth-child(2)) { display: none;  }
-    .tg tr td:nth-child(2) { padding: 20px 20px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 14px; }
+    .tg tr td:nth-child(2) {padding: 10px 20px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;font-size: 14px;}
     .tg tr td:nth-child(2) span { display: block; color: #aaa;}
 
     section .rightBox > div { transform: translateX(-50%);}
@@ -382,7 +384,7 @@ a.btn_green:hover { color:#fff; box-shadow: #022b2b 0 0px 0px 40px inset;}
     .bx-pager { transform: translateX(-9%);}
     .section4 .caseSlide li p { text-align: left; }
     .section5 .rightBox > div { top: 100%; }
-    .press_logo { height: 20px; line-height: inherit; margin: 10% 4%; }
+    .press_logo {height: 20px;line-height: inherit;margin: 3% 4%;}
 
     .section6 div p { font-size: 16px; }
     .section6 .snsBox { margin-top: 20px; }
